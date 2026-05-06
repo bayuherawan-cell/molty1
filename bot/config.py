@@ -9,11 +9,11 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # ── Skill / API version ──────────────────────────────────────────────
-SKILL_VERSION = "1.5.2"
+SKILL_VERSION = "1.6.0"
 
 # ── URLs ──────────────────────────────────────────────────────────────
 API_BASE = "https://cdn.moltyroyale.com/api"
-WS_URL = "wss://cdn.moltyroyale.com/ws/agent"
+WS_URL = "wss://cdn.moltyroyale.com/ws/join"
 
 # ── Chain config (CROSS Mainnet) ──────────────────────────────────────
 CROSS_CHAIN_ID = 612055
